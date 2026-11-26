@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="COVE — modern streetwear and everyday essentials.">
+  <title>COVE — Own Your Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">COVE STREETWEAR — BUILT FOR EVERYDAY</div>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="COVE home">COVE<span>.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">HOME</a><a href="#shop">SHOP</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a>
+    </nav>
+    <button class="cart-button" id="cart-open" aria-label="Open shopping cart">BAG <span id="cart-count">0</span></button>
+    <button class="menu-button" id="menu-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">NEW SEASON · NEW ENERGY</p>
+        <h1>OWN<br><span>YOUR</span><br>STYLE.</h1>
+        <p class="hero-sub">Everyday essentials. Streetwear attitude.<br>Find your fit with COVE.</p>
+        <a class="button button-light" href="#shop">EXPLORE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="hero-stamp">COVE<br><small>EST. 2026</small></div>
+        <div class="hero-image-label">THE EVERYDAY UNIFORM / 001</div>
+      </div>
+      <div class="hero-bottom"><span>MODERN STREETWEAR</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Brand statement"><div>LESS NOISE. MORE STYLE. &nbsp; COVE. &nbsp; LESS NOISE. MORE STYLE. &nbsp; COVE. &nbsp;</div></section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE COVE EDIT</p><h2>SHOP THE<br><span>COLLECTION.</span></h2></div>
+        <p class="section-note">Pieces made for your everyday rotation.<br>Choose your fit. Make it yours.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="tshirt">T-SHIRTS</button>
+        <button class="filter" data-filter="hoodie">HOODIES</button>
+        <button class="filter" data-filter="pants">PANTS</button>
+      </div>
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="statement" id="about">
+      <p class="eyebrow">NOT JUST CLOTHING</p>
+      <h2>MADE TO MOVE.<br><span>MADE TO STAND OUT.</span></h2>
+      <p>COVE is about keeping it simple, wearing it your way, and showing up with confidence. Discover everyday streetwear made for your own kind of style.</p>
+      <a href="#shop" class="text-link">FIND YOUR NEXT FIT ↗</a>
+    </section>
+
+    <section class="feature-grid">
+      <div class="feature feature-dark"><span>01 / FIT</span><h3>EVERYDAY<br>COMFORT.</h3><p>Easy silhouettes. Relaxed energy.</p></div>
+      <div class="feature feature-light"><span>02 / STYLE</span><h3>YOUR LOOK.<br>YOUR RULES.</h3><p>Build a style that feels like you.</p></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>NEED A HAND?<br><span>WE'RE HERE.</span></h2>
+      <p>Questions about sizing, orders or a product? Message COVE and we'll help you out.</p>
+      <a class="button button-dark" id="contact-whatsapp" href="#" target="_blank" rel="noopener">CHAT WITH COVE ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home">COVE<span>.</span></a>
+    <p>OWN YOUR STYLE. © <span id="year"></span> COVE.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head"><h2>YOUR BAG <span id="drawer-count">(0)</span></h2><button id="cart-close" aria-label="Close cart">✕</button></div>
+    <div class="cart-items" id="cart-items"><p class="empty-cart">Your bag is empty.</p></div>
+    <div class="cart-footer">
+      <div class="total"><span>SUBTOTAL</span><strong id="cart-total">৳0</strong></div>
+      <button class="button button-dark checkout-button" id="checkout">ORDER VIA WHATSAPP ↗</button>
+      <small>Delivery charges may apply. Confirm details on WhatsApp.</small>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
