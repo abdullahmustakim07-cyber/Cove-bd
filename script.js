@@ -1,6 +1,6 @@
 // COVE store settings — edit these values before publishing.
 const STORE = {
-  whatsappNumber: "8801XXXXXXXXX", // Replace with your WhatsApp number, country code included, no + sign.
+  whatsappNumber: "8801922798211", // Replace with your WhatsApp number, country code included, no + sign.
   currency: "৳",
   products: [
     {id:1,name:"COVE Essential Drop Shoulder",category:"tshirt",price:350,tag:"BESTSELLER",color:"BLACK",sizes:["S","M","L","XL"],mark:"COVE"},
