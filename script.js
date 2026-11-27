@@ -6,9 +6,9 @@ const STORE = {
   id: 1,
   name: "COVE Essential Hoodie",
   category: "hoodie",
-  price: 850,
+  price: 799,
   color: "BLACK",
-  image: "images/black-hoodie.jpg"
+  image: "file_00000000d56c81fa89d00d19cb12fee5.png"
 },
     {id:2,name:"COVE Essential Drop Shoulder",category:"tshirt",price:350,tag:"BESTSELLER",color:"BLACK",sizes:["S","M","L","XL"],mark:"COVE"},
     {id:3,name:"Classic Oversized Tee",category:"tshirt",price:400,tag:"NEW",color:"WHITE",sizes:["S","M","L","XL"],mark:"FORM"},
