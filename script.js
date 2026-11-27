@@ -2,13 +2,20 @@
 const STORE = {
   whatsappNumber: "8801922798211", // Replace with your WhatsApp number, country code included, no + sign.
   currency: "৳",
-  products: [
-    {id:1,name:"COVE Essential Drop Shoulder",category:"tshirt",price:350,tag:"BESTSELLER",color:"BLACK",sizes:["S","M","L","XL"],mark:"COVE"},
-    {id:2,name:"Classic Oversized Tee",category:"tshirt",price:400,tag:"NEW",color:"WHITE",sizes:["S","M","L","XL"],mark:"FORM"},
-    {id:3,name:"Core Street Hoodie",category:"hoodie",price:850,tag:"COMING SOON",color:"BLACK",sizes:["M","L","XL"],mark:"C."},
-    {id:4,name:"Relaxed Fit Street Pants",category:"pants",price:750,tag:"NEW",color:"CHARCOAL",sizes:["M","L","XL"],mark:"COVE"},
-    {id:5,name:"Everyday Boxy Tee",category:"tshirt",price:380,tag:"COVE PICK",color:"GREY",sizes:["S","M","L","XL"],mark:"COVE"},
-    {id:6,name:"Minimal Pullover Hoodie",category:"hoodie",price:900,tag:"ESSENTIAL",color:"GREY",sizes:["M","L","XL"],mark:"DAILY"}
+  products: [{
+  id: 1,
+  name: "COVE Essential Hoodie",
+  category: "hoodie",
+  price: 850,
+  color: "BLACK",
+  image: "images/black-hoodie.jpg"
+},
+    {id:2,name:"COVE Essential Drop Shoulder",category:"tshirt",price:350,tag:"BESTSELLER",color:"BLACK",sizes:["S","M","L","XL"],mark:"COVE"},
+    {id:3,name:"Classic Oversized Tee",category:"tshirt",price:400,tag:"NEW",color:"WHITE",sizes:["S","M","L","XL"],mark:"FORM"},
+    {id:4,name:"Core Street Hoodie",category:"hoodie",price:850,tag:"COMING SOON",color:"BLACK",sizes:["M","L","XL"],mark:"C."},
+    {id:5,name:"Relaxed Fit Street Pants",category:"pants",price:750,tag:"NEW",color:"CHARCOAL",sizes:["M","L","XL"],mark:"COVE"},
+    {id:6,name:"Everyday Boxy Tee",category:"tshirt",price:380,tag:"COVE PICK",color:"GREY",sizes:["S","M","L","XL"],mark:"COVE"},
+    {id:7,name:"Minimal Pullover Hoodie",category:"hoodie",price:900,tag:"ESSENTIAL",color:"GREY",sizes:["M","L","XL"],mark:"DAILY"}
   ]
 };
 let cart = [];
